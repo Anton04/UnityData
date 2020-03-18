@@ -120,6 +120,115 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &120334961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 120334963}
+  - component: {fileID: 120334962}
+  m_Layer: 0
+  m_Name: DataBuffer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &120334962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120334961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04da25fb9021c4299a4fac392dd61332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimulationTime: {fileID: 0}
+  Next: Infinity
+  Prev: -Infinity
+  NodeName: 
+  Units: []
+  Columns: []
+  Sources:
+  - Topic: test/signalB
+    DataPeriod:
+      Enabled: 0
+      Relative: 0
+      FromTime: 0
+      ToTime: 0
+    Source: {fileID: 1802868726}
+    Target: {fileID: 0}
+    LastTransmission:
+      Timestamp: 0
+      Values: []
+      Texts: []
+      origin:
+        Data: []
+        index: 0
+  Targets: []
+  LastData:
+    Timestamp: 0
+    Values: []
+    Texts: []
+    origin:
+      Data: []
+      index: 0
+  TimeOffset: 0
+  Rescales: []
+  Offsets: []
+  ScaleWithTimeSeries: {fileID: 0}
+  OffsetWithTimeSeries: {fileID: 0}
+  meterindex: 1
+  rateindex: 0
+  RateMeterConversionFactor: 0
+  debug: 0
+  StartTime: 0
+  StopTime: 0
+  Relative: 0
+  BufferMaxSize: 1000
+  isAsync: 0
+  hasIntegral: 0
+  isTextSeries: 0
+  ReloadLimit: 0
+  Enabled: 1
+  Record: 1
+  BufferValid: 0
+  CurrentIndex: 0
+  CurrentTimestamp: 0
+  CurrentDate: 
+  CurrentValues: []
+  CurrentText: 
+  CurrentSize: 0
+  Data: []
+  AutoRequestBuffer: 0
+  AutoRequestTheshhold: 10
+  RequestedPerod:
+    Enabled: 0
+    Relative: 0
+    FromTime: NaN
+    ToTime: NaN
+  File: {fileID: 0}
+  Separeator: ','
+--- !u!4 &120334963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120334961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3579056, y: 0.16194582, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &488079018
 GameObject:
   m_ObjectHideFlags: 0
